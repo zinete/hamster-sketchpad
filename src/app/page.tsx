@@ -2,18 +2,21 @@
  * @ Author: ZhengHui
  * @ Create Time: 2023-11-17 16:28:11
  * @ Modified by: ZhengHui
- * @ Modified time: 2023-11-23 16:24:22
+ * @ Modified time: 2023-11-27 10:27:21
  * @ Description:
  */
 
 "use client";
 
 import CanvansComponent from "@/components/Canvas";
-import RightBar from "@/components/Control/RightBar";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import History from "@/components/Control/History";
 import { CanvasProvider } from "@/context/CanvasContext";
+import dynamic from "next/dynamic";
+const RightBar = dynamic(() => import("@/components/Control/RightBar"), {
+  ssr: false,
+});
 
 import React, { useEffect, useMemo, useRef, useState } from "react";
 

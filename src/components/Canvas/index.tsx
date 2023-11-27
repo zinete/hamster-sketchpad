@@ -2,7 +2,7 @@
  * @ Author: ZhengHui
  * @ Create Time: 2023-11-22 11:25:30
  * @ Modified by: ZhengHui
- * @ Modified time: 2023-11-23 17:21:24
+ * @ Modified time: 2023-11-27 10:25:44
  * @ Description:
  */
 
@@ -17,12 +17,12 @@ const CanvansComponent: React.FC<{ w: number; h: number }> = ({ w, h }) => {
       canvas.setWidth(w);
       canvas.setHeight(h);
     }
-    window.addEventListener("keydown", handleKeyDown);
+    window?.addEventListener("keydown", handleKeyDown);
     // 监听点击事件
 
     return () => {
       // 移除事件监听器，以防止内存泄漏
-      window.removeEventListener("keydown", handleKeyDown);
+      window?.removeEventListener("keydown", handleKeyDown);
     };
   }, [canvas]);
 
