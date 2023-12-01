@@ -2,7 +2,7 @@
  * @ Author: ZhengHui
  * @ Create Time: 2023-11-22 11:25:30
  * @ Modified by: ZhengHui
- * @ Modified time: 2023-11-27 10:25:44
+ * @ Modified time: 2023-11-27 14:14:08
  * @ Description:
  */
 
@@ -28,6 +28,7 @@ const CanvansComponent: React.FC<{ w: number; h: number }> = ({ w, h }) => {
 
   const deleteSelected = () => {
     if (canvas) {
+      // TODO 文本框删除需要优先控制删除文字。并且光标聚焦不能删除
       const activeObject = canvas.getActiveObject();
       if (activeObject) {
         canvas.remove(activeObject);

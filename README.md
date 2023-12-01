@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 南昌旅行
 
-## Getting Started
+![222](https://p8.itc.cn/images01/20210621/99913d49430148a4ad547e8ba3b37496.jpeg)
 
-First, run the development server:
+<!-- 时间行程 -->
+<table>
+  <tr>
+    <th>日期</th>
+    <th>日期</th>
+    <th>日期</th>
+    <th>日期</th>
+  </tr>
+   <tr>
+    <th>日期</th>
+  </tr>
+   <tr>
+    <th>日期</th>
+  </tr>
+</table>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<!-- 预算 -->
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> 交通费用
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+> 住宿费用
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<!-- 行程 -->
 
-## Learn More
+我 上海-江西南昌
 
-To learn more about Next.js, take a look at the following resources:
+她 罗田-武汉-南昌
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- 好吃的 -->
+<!-- 好玩的 -->
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- 南昌之星摩天轮
+- 滕王阁
 
-## Deploy on Vercel
+<!-- 必打卡 -->
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+$$\sum_{i=1}^n a_i=0$$
+$$f(x_1,x_x,\ldots,x_n) = x_1^2 + x_2^2 + \cdots + x_n^2 $$
+$$\sum^{j-1}_{k=0}{\widehat{\gamma}_{kj} z_k}$$
